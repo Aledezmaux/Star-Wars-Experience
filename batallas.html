@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Star Wars">
+    <meta name="keywords" content="star wars, darth vader, obi-wan, Skywalker, la fuerza, yoda, planetas, batallas">
+    <link rel="icon" type="image/png" href="img/storm.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/sass-live-compiler/estilos/main.css">
+    <title>Batallas | Star Wars</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <a href="index.html" class="header_logo">Star Wars</a>
+            <nav class="nav">
+                <ul class="nav_ul">
+                    <li class="nav_ul_li"><a href="personajes.html"> Personajes</a></li>
+                    <li class="nav_ul_li"><a href="planetas.html"> Planetas</a></li>
+                    <li class="nav_ul_li"><a href="batallas.html"> Batallas</a></li>
+                    <li class="nav_ul_li"><a href="productos.html"> Tienda</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>  
+    <main class="main_personajes">
+        <img src="https://media.contentapi.ea.com/content/dam/walrus/images/2018/05/mapvista-ewokvillage-nologo.png.adapt.crop191x100.628p.png" alt="">
+      <div class="main_personajes_texto">
+        <h1 class="main_personajes_h1_black">Batallas iconicas</h1>
+        <P class="main_personajes_p_black">Encuentros que cambiaron el destino de la saga</P>
+      </div>
+  </main>
+  <section class="buttons-batallas">
+    <a href="#obi_maul" style="text-decoration: none;"><button class="boton-main" id="obi-maul"> Obi-Wan vs Maul</button></a>
+    <a href="#obi_grev" style="text-decoration: none;"><button class="boton-main" id="obi-grev"> Obi-Wan vs Grievious</button></a>
+    <a href="#an_dooku" style="text-decoration: none;"><button class="boton-main" id="an-dooku"> Anakin vs Dooku</button></a>
+    <a href="#mace_sid" style="text-decoration: none;"><button class="boton-main" id="mace-sid"> Mace Windu vs Sidious</button></a>
+    <a href="#yoda_sid" style="text-decoration: none;"><button class="boton-main" id="yoda-sid"> Yoda vs Sidious</button></a>
+    <a href="#obi_an" style="text-decoration: none;"><button class="boton-main" id="obi-an"> Obi-Wan vs Anakin</button></a>
+    <a href="#obi_vader" style="text-decoration: none;"><button class="boton-main" id="obi-vader"> Ben Kenobi vs Darth Vader</button></a>
+    <a href="#vader_sid" style="text-decoration: none;"><button class="boton-main" id="vader-sid"> Luke / Vader vs Sidious</button></a>
+  </section>
+    <!--batallas desktop-->
+    <div class="batallas-container" id="obi_maul">
+        <section class="batallas-vs">
+            <div class="batallas-vs-img">
+                <img src="/img/obi3.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Obi-wan Kenobi</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Darth Maul</p>
+                </div> 
+                <img src="/img/darthmaul3.png" alt="">
+            </div>
+            <div class="batallas-audio">
+                <div class="batallas-audio-cont">
+                    <audio controls >
+                        <source src="audio/obi_maul.mp3" type="audio/mp3">
+                        
+                    </audio>
+                    <p class="batallas-audio-desc">"No tienes nada"</p>
+                </div>
+                
+                <div class="batallas-audio-cont">
+                    <audio controls>
+                        <source src="audio/Maul_kenobi.mp3" type="audio/mp3">
+                    </audio>
+                    <p class="batallas-audio-desc">"¡KENOOOBI!"</p>
+                </div>
+                
+            </div>
+        </section>
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    El duelo entre el joven padawan Obi-wan y el Sith Darth Maul comenzo luego de que Maul asesinara a Qui-Gonn (maestro de Obi-wan). En este intenso duelo terminaria ganando Obi-wan partiendo en dos a Maul, luego del duelo Obi-wan corre hacia su maestro moribundo y este le encarga entrenar al niño Anakin Skywalker "El elegido". Tras el final de la Batalla de Naboo, Kenobi fue ascendido al rango de Caballero Jedi por el Consejo Jedi, con Yoda aceptando de mala gana su decisión de entrenar a Anakin Skywalker. Kenobi estuvo presente más tarde en el funeral de Jinn, donde informó al chico de que se convertiría en un Jedi.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs" id="obi_grev"">
+            <div class="batallas-vs-img">
+                <img src="/img/obi3.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Obi-wan Kenobi</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">General Grievious</p>
+                </div> 
+                <img src="img/grievious2.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/obi-grev.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Presumes de matar Jedis, no lo haces bien"</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/grev.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"De esta escoria Jedi me encargo yo"</p>
+            </div>
+            
+        </div>
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    La Batalla de Utapau fue una de las batallas finales de las Guerras Clon entre la República Galáctica y la Confederación de Sistemas Independientes, y fue una de las últimas batallas de los Asedios del Borde Exterior. Después de la partida del Consejo Separatista, Kenobi se reveló. Al bajar de la pasarela sobre el hangar, fue inmediatamente rodeado por droides de batalla y se enfrentó a cuatro de los MagnaGuardias IG-100 de Grievous. Kenobi los derrotó rápidamente, usando la Fuerza para desalojar un módulo de carga que colgaba del techo y aplastar a tres de ellos, y casualmente decapitar al único sobreviviente.
+                    Las tropas de Grievous se prepararon para abrir fuego contra Kenobi, pero Grievous los detuvo. Queriendo desafiar al propio Kenobi
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/8FZ7k-q7f9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs" id="an_dooku">
+            <div class="batallas-vs-img">
+                <img src="img/Anakin_ROTS.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Anakin Skywalker</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Conde Dooku</p>
+                </div> 
+                <img src="img/conde.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/anakin-dok.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Mis poderes si han duplicado"</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/dook.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Bien, cuanta más soberbia más fuerte la caída"</p>
+            </div>
+            
+        </div>
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    Skywalker y Kenobi lucharon juntos contra Dooku en un duelo coordinado, hasta que el Lord Sith estranguló con la Fuerza a Obi-Wan Kenobi. Entonces, Dooku golpeó a Skywalker a la vez que lanzaba a Kenobi hacia el otro lado de la sala, dejando al Maestro Jedi inconsciente y lanzando sobre él un trozo de pasarela con la Fuerza. Skywalker volvió a atacar a Dooku, perdiendo el control de sus emociones mientras Dooku se burlaba de él.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/x2M_CkAm4vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs" id="mace_sid">
+            <div class="batallas-vs-img">
+                <img src="img/Mace_Windu_render.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Mace Windu</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Darth Sidious</p>
+                </div> 
+                <img src="img/darth sidious.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/mace.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Queda arrestado canciller"</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/sid.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Es traición entonces"</p>
+            </div>
+            
+        </div>
+       
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    El Duelo en la Oficina del Canciller o Confrontación en Coruscant comenzó cuando los Jedi Kit Fisto, Agen Kolar y Saesee Tiin, dirigidos por Mace Windu, intentaron arrestar al Canciller Supremo Palpatine después de descubrir su verdadera identidad como Darth Sidious, el Señor Oscuro de los Sith.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/634pLGGZpLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs" id="yoda_sid">
+            <div class="batallas-vs-img">
+                <img src="img/Master_Yoda4.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Yoda</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Darth Sidious</p>
+                </div> 
+                <img src="/img/darth sidious.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/yoda.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Si tan poderoso eres ¿por qué te vas?"</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/sid2.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"No podrán detenerme"</p>
+            </div>
+            
+        </div>
+        
+        
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    El Duelo en el Senado fue una batalla entre el Lord Sith Darth Sidious y el Gran Maestro Jedi Yoda. Después de la Orden 66, Yoda, el Gran Maestro, consiguió entrar en la secretaría de la cancillería, determinado de matar al nuevo emperador, Palpatine, quien era el evasivo Lord Sith Darth Sidious. El gran maestro jedi fue dentro de la oficina que tenía el Canciller dentro del Edificio del Senado para enfrentarse cara a cara con el Lord Oscuro después de expulsar a sus protectores. Una batalla entre dos amos de la Fuerza era inminente.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/NCscZxa23tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs" id="obi_an">
+            <div class="batallas-vs-img">
+                <img src="/img/obi3.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Obi-wan Kenobi</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Anakin Skywalker</p>
+                </div> 
+                <img src="img/Anakin_ROTS.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/obi-an.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Solo un Sith es tan radical tomando decisiones. <br> Haré lo que deba hacer "</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/an-obi.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Será en vano"</p>
+            </div>
+            
+        </div>
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    El duelo ocurrió como consecuencia de la Misión a Mustafar, en la cual Darth Vader mató al Consejo Separatista y terminó las Guerras Clon. Mientras Vader mataba a éstos, Padmé Amidala iba en camino a Mustafar. Los últimos restos de Anakin Skywalker estaban muriendo invocando a un llanto de sufrimiento. Cuando Vader interceptó la nave de Naboo entrando en Mustafar,estaba seguro que se trataría de su esposa, por lo que aparentó estar bien. Cuando se reunieron, Padme le contó de lo que había dicho Obi-wan sobre su matanza de los Jedi. Lamentablemente Obi-Wan se había infiltrado en la nave de la Senadora y al ir al encuentro con Anakin, éste penso que Padme le había tendido una trampa (cosa errada). La transformación estaba completa. En su rabia, Vader estranguló a su esposa embarazada, dejándola inconsciente hecho que forzó a Obi-Wan a luchar contra su antiguo amigo y padawan.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/_V97ESHV2RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs" id="obi_vader">
+            <div class="batallas-vs-img">
+                <img src="img/Obi-Wan-Kenobi-PNG-Image.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Ben Kenobi</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Darth Vader</p>
+                </div> 
+                <img src="img/vader4.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/benk.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Si me abates me volveré más poderoso <br> de lo que puedas imaginar"</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/darthv.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"No debiste regresar"</p>
+            </div>
+            
+        </div>
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    Mientras el Halcón Milenario era obligado a aterrizar en el hangar 327, Han Solo instó a todo el mundo a esconderse en los compartimentos de contrabando de la nave, situados bajo el suelo y a prueba de sensores. Obi-Wan, se escondió en uno de los compartimentos junto a R2-D2 y C-3PO. Cuando los soldados de asalto imperiales abandonaron la nave, Kenobi dijo a Solo que él se ocuparía del rayo tractor de la Estrella de la Muerte; al cabo de poco, con Luke Skywalker y Solo disfrazados de soldados de asalto, tomaron el control de la sala de control del hangar, donde Obi-Wan averiguó la localización del terminal desde el cual podría desactivar el rayo tractor. A pesar de las protestas de Luke, Obi-Wan se marchó en solitario, afirmando que sus destinos yacían en caminos diferentes. Mientras Luke, Han Solo y Chewbacca descubrían la presencia de Leia Organa en la estación e iban a rescatarla, Obi-Wan consiguió desactivar el rayo tractor. Sin embargo, en el camino de vuelta al Halcón Milenario, se encontró con Darth Vader y los dos iniciaron su duelo final. Durante el duelo, Vader notó que la edad de Obi-Wan le había hecho débil, pero Kenobi dijo a su antiguo aprendiz que nunca ganaría puesto que se convertiría en alguien mucho más poderoso de lo que él podía imaginar, incluso si conseguía matarlo.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/3nwuNgbOo3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs">
+            <div class="batallas-vs-img">
+                <img src="img/lukev2.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Luke Skywalker</p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Darth Vader</p>
+                </div> 
+                <img src="img/vader4.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/luke.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Siento la bondad en ti"</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/vader-luke.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Subestimas el poder del lado oscuro"</p>
+            </div>
+            
+        </div>
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    En la cámara de congelación en carbonita de la Ciudad Nube, Darth Vader se enfrenta a Luke Skywalker. Vader le dice Skywalker que su destino yace junto a él, pero Luke no está de acuerdo. Usado la Fuerza, Darth Vader le avienta objetos a Skywalker, los cuales Luke evade. Las dos espadas se cruzan y estallan en la cámara.
+
+                    Skywalker logra empujar a Vader hacia uno de los paneles de mantenimiento. Abajo, los dos continuan el duelo con Vader emboscando a Skywalker y usando la fuerza para lanzarle objetos. Skywalker es arrojado hacia la ventana y logra agarrarse de un puente. Vader continúa la persecución y Skywalker es forzado a evadirlo.
+
+                    Lord Vader dirige a Skywalker hacia el borde de la plataforma. Darth Vader invita a Skywalker a que se una a él, tentándolo con el poder del lado oscuro. Skywalker dice que él nunca se le uniría y se carga hacia Lord Vader. Hay un brillo resplandeciente de luz y la pantalla se desvanece.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/YRcUdD5nthc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <div class="batallas-container">
+        <section class="batallas-vs" id="vader_sid">
+            <div class="batallas-vs-img">
+                <img src="img/vaderluke.png" alt="">
+                <div class="text-battle">
+                    <p class="batallas-vs-p">Luke / Vader </p>
+                    <p class="batallas-vs-p_grey">VS</p>
+                    <p class="batallas-vs-p">Darth Sidious</p>
+                </div> 
+                <img src="img/darth sidious2.png" alt="">
+            </div>
+        </section>
+        <div class="batallas-audio">
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/luke-sid.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Soy un Jedi como mi padre (Vader) antes de mi"</p>
+            </div>
+            
+            <div class="batallas-audio-cont">
+                <audio controls>
+                    <source src="audio/sid3.mp3" type="audio/mp3">
+                </audio>
+                <p class="batallas-audio-desc">"Entonces vas a ser destruido"</p>
+            </div>
+            
+        </div>
+        <div class="batallas-video">
+            <div class="video-description">
+                <p class="video-description-p">
+                    Sidious manipulando la mente y los sentimientos de Luke logra iniciar una batalla entre Luke y su padre Darth Vader saliendo victorioso el joven Jedi que luego renunció a unirse a Sidious, dominando su ira y desafiando al Maestro Sith, quien se dispuso a acabar con el muchacho demostrándole lo equivocado que estaba y lo débil que le hacía su decisión. Con lo que no contaba Sidious era con la traición de su aprendiz.
+                </p>
+            </div>
+            <div class="batallas-video-container">
+                <iframe class="iframe-batallas" max-width: 560px; src="https://www.youtube.com/embed/GZAO28uJAZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Obi-Wan Kenobi</p>
+            <img class="div-batallas-mobile-img" src="img/obi-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/maul-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Darth Maul</p>
+            <p id="div-batallas-mobile-text">El duelo entre el joven padawan Obi-wan y el Sith Darth Maul comenzo luego de que Maul asesinara a Qui-Gonn (maestro de Obi-wan). En este intenso duelo terminaria ganando Obi-wan partiendo en dos a Maul, luego del duelo Obi-wan corre hacia su maestro moribundo y este le encarga entrenar al niño Anakin Skywalker "El elegido". Tras el final de la Batalla de Naboo, Kenobi fue ascendido al rango de Caballero Jedi por el Consejo Jedi, con Yoda aceptando de mala gana su decisión de entrenar a Anakin Skywalker. Kenobi estuvo presente más tarde en el funeral de Jinn, donde informó al chico de que se convertiría en un Jedi.</p>
+            <button><a href="https://www.youtube.com/embed/apZf6_BD_J4">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Obi-Wan Kenobi</p>
+            <img class="div-batallas-mobile-img" src="img/obi-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/grievious-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">General Grevious</p>
+            <p id="div-batallas-mobile-text">La Batalla de Utapau fue una de las batallas finales de las Guerras Clon entre la República Galáctica y la Confederación de Sistemas Independientes, y fue una de las últimas batallas de los Asedios del Borde Exterior. Después de la partida del Consejo Separatista, Kenobi se reveló. Al bajar de la pasarela sobre el hangar, fue inmediatamente rodeado por droides de batalla y se enfrentó a cuatro de los MagnaGuardias IG-100 de Grievous. Kenobi los derrotó rápidamente, usando la Fuerza para desalojar un módulo de carga que colgaba del techo y aplastar a tres de ellos, y casualmente decapitar al único sobreviviente.
+                Las tropas de Grievous se prepararon para abrir fuego contra Kenobi, pero Grievous los detuvo. Queriendo desafiar al propio Kenobi</p>
+            <button><a href="https://www.youtube.com/embed/8FZ7k-q7f9E">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Anakin Skywalker</p>
+            <img class="div-batallas-mobile-img" src="img/ani-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/conde-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Conde Dooku</p>
+            <p id="div-batallas-mobile-text">Skywalker y Kenobi lucharon juntos contra Dooku en un duelo coordinado, hasta que el Lord Sith estranguló con la Fuerza a Obi-Wan Kenobi. Entonces, Dooku golpeó a Skywalker a la vez que lanzaba a Kenobi hacia el otro lado de la sala, dejando al Maestro Jedi inconsciente y lanzando sobre él un trozo de pasarela con la Fuerza. Skywalker volvió a atacar a Dooku, perdiendo el control de sus emociones mientras Dooku se burlaba de él.</p>
+            <button><a href="https://www.youtube.com/embed/x2M_CkAm4vw">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Mace Windu</p>
+            <img class="div-batallas-mobile-img" src="img/mace-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/sid-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Sidious</p>
+            <p id="div-batallas-mobile-text">El Duelo en la Oficina del Canciller o Confrontación en Coruscant comenzó cuando los Jedi Kit Fisto, Agen Kolar y Saesee Tiin, dirigidos por Mace Windu, intentaron arrestar al Canciller Supremo Palpatine después de descubrir su verdadera identidad como Darth Sidious, el Señor Oscuro de los Sith.</p>
+            <button><a href="https://www.youtube.com/embed/634pLGGZpLU">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Yoda</p>
+            <img class="div-batallas-mobile-img" src="img/yoda-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/sid-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Sidious</p>
+            <p id="div-batallas-mobile-text">El Duelo en el Senado fue una batalla entre el Lord Sith Darth Sidious y el Gran Maestro Jedi Yoda. Después de la Orden 66, Yoda, el Gran Maestro, consiguió entrar en la secretaría de la cancillería, determinado de matar al nuevo emperador, Palpatine, quien era el evasivo Lord Sith Darth Sidious. El gran maestro jedi fue dentro de la oficina que tenía el Canciller dentro del Edificio del Senado para enfrentarse cara a cara con el Lord Oscuro después de expulsar a sus protectores. Una batalla entre dos amos de la Fuerza era inminente.</p>
+            <button><a href="https://www.youtube.com/embed/NCscZxa23tg">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Obi-Wan Kenobi</p>
+            <img class="div-batallas-mobile-img" src="img/obi-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/ani-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Anakin Skywalker</p>
+            <p id="div-batallas-mobile-text">El duelo ocurrió como consecuencia de la Misión a Mustafar, en la cual Darth Vader mató al Consejo Separatista y terminó las Guerras Clon. Mientras Vader mataba a éstos, Padmé Amidala iba en camino a Mustafar. Los últimos restos de Anakin Skywalker estaban muriendo invocando a un llanto de sufrimiento. Cuando Vader interceptó la nave de Naboo entrando en Mustafar,estaba seguro que se trataría de su esposa, por lo que aparentó estar bien. Cuando se reunieron, Padme le contó de lo que había dicho Obi-wan sobre su matanza de los Jedi. Lamentablemente Obi-Wan se había infiltrado en la nave de la Senadora y al ir al encuentro con Anakin, éste penso que Padme le había tendido una trampa (cosa errada). La transformación estaba completa. En su rabia, Vader estranguló a su esposa embarazada, dejándola inconsciente hecho que forzó a Obi-Wan a luchar contra su antiguo amigo y padawan.</p>
+            <button><a href="https://www.youtube.com/embed/_V97ESHV2RA">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Ben Kenobi</p>
+            <img class="div-batallas-mobile-img" src="img/ben-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/vader-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Darth Vader</p>
+            <p id="div-batallas-mobile-text">Mientras el Halcón Milenario era obligado a aterrizar en el hangar 327, Han Solo instó a todo el mundo a esconderse en los compartimentos de contrabando de la nave, situados bajo el suelo y a prueba de sensores. Obi-Wan, se escondió en uno de los compartimentos junto a R2-D2 y C-3PO. Cuando los soldados de asalto imperiales abandonaron la nave, Kenobi dijo a Solo que él se ocuparía del rayo tractor de la Estrella de la Muerte; al cabo de poco, con Luke Skywalker y Solo disfrazados de soldados de asalto, tomaron el control de la sala de control del hangar, donde Obi-Wan averiguó la localización del terminal desde el cual podría desactivar el rayo tractor. A pesar de las protestas de Luke, Obi-Wan se marchó en solitario, afirmando que sus destinos yacían en caminos diferentes. Mientras Luke, Han Solo y Chewbacca descubrían la presencia de Leia Organa en la estación e iban a rescatarla, Obi-Wan consiguió desactivar el rayo tractor. Sin embargo, en el camino de vuelta al Halcón Milenario, se encontró con Darth Vader y los dos iniciaron su duelo final. Durante el duelo, Vader notó que la edad de Obi-Wan le había hecho débil, pero Kenobi dijo a su antiguo aprendiz que nunca ganaría puesto que se convertiría en alguien mucho más poderoso de lo que él podía imaginar, incluso si conseguía matarlo.</p>
+            <button><a href="https://www.youtube.com/embed/3nwuNgbOo3E">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Luke Skywalker</p>
+            <img class="div-batallas-mobile-img" src="img/luke-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/vader-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Darth Vader</p>
+            <p id="div-batallas-mobile-text">En la cámara de congelación en carbonita de la Ciudad Nube, Darth Vader se enfrenta a Luke Skywalker. Vader le dice Skywalker que su destino yace junto a él, pero Luke no está de acuerdo. Usado la Fuerza, Darth Vader le avienta objetos a Skywalker, los cuales Luke evade. Las dos espadas se cruzan y estallan en la cámara.
+
+                Skywalker logra empujar a Vader hacia uno de los paneles de mantenimiento. Abajo, los dos continuan el duelo con Vader emboscando a Skywalker y usando la fuerza para lanzarle objetos. Skywalker es arrojado hacia la ventana y logra agarrarse de un puente. Vader continúa la persecución y Skywalker es forzado a evadirlo.
+
+                Lord Vader dirige a Skywalker hacia el borde de la plataforma. Darth Vader invita a Skywalker a que se una a él, tentándolo con el poder del lado oscuro. Skywalker dice que él nunca se le uniría y se carga hacia Lord Vader. Hay un brillo resplandeciente de luz y la pantalla se desvanece.</p>
+            <button class="mobile-batallas-boton"><a href="https://www.youtube.com/embed/YRcUdD5nthc">VER BATALLA</a></button>
+        </div>
+    </section>
+    <section class="container-batallas-mobile">
+        <div class="div-batallas-mobile">
+            <p class="div-batallas-mobile-p">Luke / Vader</p>
+            <img class="div-batallas-mobile-img" src="img/vaderluke-mobile.png" alt="">
+            <H5 class="div-batallas-mobile-H5">VS</H5>
+            <img class="div-batallas-mobile-img" src="img/sid-mobile.png" alt="">
+            <p class="div-batallas-mobile-p">Sidious</p>
+            <p id="div-batallas-mobile-text">Sidious manipulando la mente y los sentimientos de Luke logra iniciar una batalla entre Luke y su padre Darth Vader saliendo victorioso el joven Jedi que luego renunció a unirse a Sidious, dominando su ira y desafiando al Maestro Sith, quien se dispuso a acabar con el muchacho demostrándole lo equivocado que estaba y lo débil que le hacía su decisión. Con lo que no contaba Sidious era con la traición de su aprendiz.</p>
+            <button><a href="https://www.youtube.com/embed/GZAO28uJAZQ">VER BATALLA</a></button>
+        </div>
+    </section>
+<!--
+    <section class="section1-batallas-mobile">
+        <h5>Obi-Wan / Anakin</h5>
+        <p>VS</p>
+        <h5>Conde Dooku</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+
+    <section class="section1-batallas-mobile">
+        <h5>Obi-Wan</h5>
+        <p>VS</p>
+        <h5>General Grevious</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+
+    <section class="section1-batallas-mobile">
+        <h5>Mace Windu</h5>
+        <p>VS</p>
+        <h5>Darth Sidious</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+
+    <section class="section1-batallas-mobile">
+        <h5>Obi-Wan</h5>
+        <p>VS</p>
+        <h5>Anakin Skywalker</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+
+    <section class="section1-batallas-mobile">
+        <h5>Yoda</h5>
+        <p>VS</p>
+        <h5>Darth Sidious</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+
+    <section class="section1-batallas-mobile">
+        <h5>Darth Vader</h5>
+        <p>VS</p>
+        <h5>Obi-Wan (Ben)</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+
+    <section class="section1-batallas-mobile">
+        <h5>Luke Skywalker</h5>
+        <p>VS</p>
+        <h5>Darth Vader</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+
+    <section class="section1-batallas-mobile">
+        <h5>Luke Skywalker</h5>
+        <p>VS</p>
+        <h5>Darth Sidious</h5>
+    </section>
+    <div class="batallas-video">
+        <div class="batallas-video-container">
+            <iframe class="iframe-batallas" src="https://www.youtube.com/embed/apZf6_BD_J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video-description">
+        <p class="video-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, distinctio! Possimus velit id nemo neque numquam architecto quo aspernatur esse illum. Debitis quaerat officia saepe nam aspernatur, porro quasi doloremque harum. Quos, cupiditate molestiae. Itaque sunt iure totam, architecto assumenda sequi voluptates eius omnis facilis a magnam expedita officia quaerat.
+        </p>
+    </div>
+    -->
+    <footer class="footer">
+        <div class="footer_div">
+            <ul class="footer_div_ul">
+                <li class="footer_div_li">CONTACTO</li>
+                <li class="footer_div_li">INFORMACION</li>
+                <li class="footer_div_li">FUENTE</li>
+                <li class="footer_div_li">COPYRIGHT</li>
+            </ul>
+            <div class="footer_div" >
+                <img class="footer-icon" src="img/linkedin.png" alt="Linkedin">
+                <img class="footer-icon" src="img/github.png" alt="">
+            </div>
+        </div>
+        <div class="footer_div2" id="footer-name">
+            <h5>Alejandro Ledezma 2021</h5>
+        </div>
+    </footer>
+</body> 
+</html>

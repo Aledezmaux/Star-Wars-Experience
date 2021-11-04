@@ -1,0 +1,111 @@
+/* batallas*/
+.batallas-vs {
+    width: 100%;
+    display: none;
+  }
+  
+  .batallas-container {
+    display: none;
+  }
+  .section1-batallas-mobile {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vw;
+  
+  }
+  .section1-batallas-mobile P {
+    opacity: 60%;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+  }
+  
+  .batallas-video {
+    max-width: 560px;
+    margin:auto;
+  }
+  .batallas-video-container {
+      height:0px;
+      width:100%;
+      max-width: 560px; 
+      padding-top:56.25%; 
+      position:relative;
+  }
+  
+  .iframe-batallas {
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+    }
+  
+  .video-description {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-top: 20px;
+    
+  }
+
+
+  /*batallas mobile*/
+.div-batallas-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    
+  }
+  .div-batallas-mobile button {
+    width: 80%;
+    height: 100px;
+    margin-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    background-color: #F08F0B;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 3rem;
+  }
+  .div-batallas-mobile a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8em;
+  }
+  
+  .div-batallas-mobile-img {
+    width: 50%;
+  }
+  .div-batallas-mobile-p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    color: white;
+    margin-top: 2rem;
+    
+  }
+  .div-batallas-mobile-H5 {
+    font-size: 2.1em;
+    font-family: 'Bebas Neue', cursive;
+    color: #F08F0B;
+  }
+  #div-batallas-mobile-text {
+    width: 80%;
+    text-align: start;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    border-top: 1px solid #595959;
+    
+  }

@@ -1,0 +1,61 @@
+/*productos*/
+
+.itemsProduct {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .flex-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    
+  }
+  .img-product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 15px;
+  }
+  
+  .img-product img {
+    width: 200px;
+   
+    
+  }
+  .img-product-h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+  }
+  .img-product p {
+    text-align: center;
+  }
+  .img-product button {
+    margin-top: 20px;
+    align-content: center;
+  }
+  
+  .botonDeco2 {
+    grid-template-areas: boton;
+    background-color:#FF8931 ;
+    transition: all;
+    border: none;
+    color: white;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  
+  }
+  .botonDeco2:hover {
+    opacity: 80%;
+    
+  }

@@ -1,0 +1,575 @@
+/*mobile*/
+@media screen and (min-width:300px) {
+    /*main*/
+    .header_logo {
+      font-size: 25px;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 8rem;
+        padding: 3rem;
+        text-align: center;
+    }
+    .nav_ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        
+    }
+    .nav_ul li {
+      margin-top: 8px;
+  }
+
+    .header .header_logo {
+        text-decoration: none;
+        color: white;
+    }
+    .main {
+      margin: 3rem 0 3rem 0;
+    }
+    .section1 {
+        display: flex;
+        flex-direction:column;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    /*fin main*/
+    .info-planetas-desktop {
+      display: none;
+    }
+    .body_container {
+      display: none;
+    }
+    #planetas-desktop {
+      display:none;
+    }
+   
+}
+/*tablet*/
+@media screen and (min-width:720px)  {
+  
+        .header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 7rem;
+          padding: 0;
+      }
+      .header_logo {
+        margin-bottom: 20px;
+      }
+      .nav_ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 50px;
+      }
+      .nav_ul li {
+        text-align: center;
+      }
+      .header .header_logo {
+          text-decoration: none;
+          color: white;
+      }
+    .section1 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin: 5rem 0;
+        width: 100%;
+        flex-direction: row;
+        
+    }
+    .main_img {
+      display: none;
+    }
+    .mobile_main_img {
+      display: block;
+    } 
+    
+    .section1 .section1_img {
+        width: 200px;
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      padding: 20px;
+      background-color: #101010;
+  }
+  .footer_div {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #topFooter {
+    border-top: 1px solid #595959;
+  }
+  #footer-name {
+    border-top: 1px solid #595959;
+    font-size: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  .footer_div_ul {
+    display: flex;
+  }
+  .footer_div_li {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .footer-icon {
+    width: 70px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+    
+}
+/*desktop*/
+@media  screen and (min-width:960px) {
+      .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 6rem;
+    }
+    .nav_ul {
+        display: flex;
+        margin: 0;
+    }
+    .header .header_logo {
+        text-decoration: none;
+        color: white;
+    }
+    .header_logo {
+      margin-bottom: 0;
+    }
+    .nav {
+        display: flex;
+    }
+    .nav_ul {
+        display: flex;
+        gap: 20px;
+    }
+    .nav_ul li {
+    margin: 0; 
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .main_div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-items: center;
+    }
+    .boton-main {
+        display: initial;
+    }
+    .main_p {
+        width: 50%;
+        text-align: center;
+        display: flex;
+       
+
+    }
+    .main_h1 {
+        font-size: 60px;
+        
+    }
+    .main_img {
+      display: block;
+    }
+    .mobile_main_img {
+      display: none;
+    } 
+    .boton-main {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    font-size: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 120px;
+    width: 380px;
+    cursor: pointer;
+    }
+    
+
+    .boton-main .boton_img {
+        width: 120px;
+    }
+    .boton_img {
+
+        animation-name: phone;
+        animation: movimiento 0.9s linear infinite;
+        
+    }
+
+    @keyframes movimiento {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+        
+
+
+    }
+    
+    .boton-main:hover {
+       
+        -webkit-text-stroke:  black;
+        background-size: 100px 200px;
+        background-position: center;
+        background: url(/img/gif.gif);
+        -webkit-background-fill-color: transparent;
+        -webkit-background-clip:padding-box;
+        background-position-y: 50%;
+        background-position-x: 50%;
+    }
+    .buttons-batallas {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+      row-gap: 20px;
+      column-gap: 20px;
+    }
+    
+    #obi-maul:hover {
+      color: #f2ae0a;
+        background-size: 100px 200px;
+        background-position: center;
+        -webkit-background-fill-color: transparent;
+        -webkit-background-clip:padding-box;
+        background-position-y: 50%;
+        background-position-x: 50%;
+      background: url(https://c.tenor.com/CGMQPHrE7VoAAAAC/lightsaber-duel.gif);
+    }
+    #obi-grev:hover {
+      color: #f2ae0a;
+      background-size: 100px 200px;
+      background-position: center;
+      -webkit-background-fill-color: transparent;
+      -webkit-background-clip:padding-box;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background: url(https://c.tenor.com/bvd6ARM1T5YAAAAC/star-wars-droid-general.gif);
+    }
+    #an-dooku:hover {
+      color: #f2ae0a;
+      background-size: 100px 200px;
+      background-position: center;
+      -webkit-background-fill-color: transparent;
+      -webkit-background-clip:padding-box;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      
+      background: url(https://steamuserimages-a.akamaihd.net/ugc/88218791285764804/7AEFA76AD2D99488E56BD770D7405DD60AB30C81/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    }
+    #mace-sid:hover {
+      color: #f2ae0a;
+      background-size: 100px 200px;
+      background-position: center;
+      -webkit-background-fill-color: transparent;
+      -webkit-background-clip:padding-box;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background: url(https://64.media.tumblr.com/2fed2e40ff9bfd47b8c798ffe7b23ae6/e8739f792fd4094b-19/s540x810/bebadcc0d00262c4cc25220fb9a2bb281dcc15a1.gifv);
+    }
+    #yoda-sid:hover {
+      color: #f2ae0a;
+      background-size: 100px 200px;
+      background-position: center;
+      -webkit-background-fill-color: transparent;
+      -webkit-background-clip:padding-box;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background: url(https://64.media.tumblr.com/7ae6e1e737f4b4e4463752193ebd400a/tumblr_pv0pd34wb61w4t7wqo3_540.gifv);
+    }
+    #obi-an:hover {
+      color: #f2ae0a;
+      background-size: 100px 200px;
+      background-position: center;
+      -webkit-background-fill-color: transparent;
+      -webkit-background-clip:padding-box;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background: url(https://ic.pics.livejournal.com/elizabeth_hoot/8805604/196323/196323_original.gif);
+    }
+    #obi-vader:hover {
+      color: #f2ae0a;
+      background-size: 100px 200px;
+      background-position: center;
+      -webkit-background-fill-color: transparent;
+      -webkit-background-clip:padding-box;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background: url(https://i.pinimg.com/originals/41/9a/bf/419abf6f908dac4a042d9b43f7293934.gif);
+    }
+    #vader-sid:hover {
+      color: #f2ae0a;
+      background-size: 100px 200px;
+      background-position: center;
+      -webkit-background-fill-color: transparent;
+      -webkit-background-clip:padding-box;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background: url(https://img.wattpad.com/548422ea3a7ad9f499f844c398508687909edf46/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f726f4b38786f36783257466d4e513d3d2d323732352e313634353065346637663964316162393439343936393238313330302e676966);
+    }
+    .header {
+      display: flex;
+      justify-content: space-around;
+            
+    }
+    .main {
+      height: 80vh;
+    }
+    .section_index_1 {
+      width: 100%;
+      background-color: black;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      display: flex;
+    }
+
+   /* batallas*/
+    .container-batallas-mobile {
+      display: none;
+    }
+
+   .batallas-container {
+     display: block;
+   }
+   .section1-batallas-mobile {
+     display: none;
+   }
+   .batallas-video {
+     display: none;
+   }
+.batallas-vs {
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+}
+.batallas-vs-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+    .batallas-container {
+    background-color: black;
+    margin: 100px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+    }
+    .batallas-vs-img img{
+    width: 30%;
+    transition: transform .5s ease;
+    }
+    .batallas-vs-img img:hover {
+    transform: scale(1.1); 
+    transition: transform .5s ease;
+    
+    }
+    .batallas-audio {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #595959;
+    
+    padding: 1rem 0 1rem 0;
+    
+    }
+    .batallas-audio-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .batallas-audio-desc {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    }
+    .text-battle {
+    padding: 1.5rem;
+    border-radius: 15px;
+    
+    }
+    .batallas-vs-p {
+        font-size: 3em;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: transform .5s ease;
+    }
+    
+    .batallas-vs-p:hover {
+        color: #f2ae0a;
+        transform: scale(1.1); 
+        transition: transform .5s ease;
+        
+    }
+  .batallas-vs-p_grey {
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: gray;
+  }
+  .batallas-vs-thumb {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+   display: flex;
+   flex-direction: column;
+   
+  }
+  .section1-batallas-mobile {
+    display: none;
+  }
+  
+  .batallas-video {
+   display: flex; 
+   flex-direction: column;
+   background-color: black;
+   border-radius: 15px;
+   padding: 0px 50px 50px 50px;
+   color: white;
+    
+  }
+
+  .video-description {
+    margin-right: auto;
+    margin-left: auto;
+    
+    margin-left: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  
+
+  /*shop*/
+
+
+  .flex-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+    
+  }
+  .img-product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 15px;
+    
+  }
+  
+  .img-product img {
+    width: 80%;
+   
+    
+  }
+  .img-product p {
+    text-align: center;
+  }
+  .img-product button {
+    margin-top: 20px;
+    align-content: center;
+  }
+  
+  .botonDeco2 {
+    grid-template-areas: boton;
+    background-color:#FF8931 ;
+    transition: all;
+    border: none;
+    color: white;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  
+  }
+  .body_container {
+    display: flex; 
+    justify-content: center;
+  }
+  .botonDeco2:hover {
+    opacity: 80%;
+    cursor: pointer;
+    
+    
+  }
+  #planetas-desktop {
+    display:block;
+  }
+  #planetas-mobile {
+    display: none;
+  }
+
+  #footer-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+    /*fin media q*/
+}
